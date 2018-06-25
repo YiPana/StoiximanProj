@@ -65,6 +65,7 @@ public class ConnectMSSQLServer {
         } catch (SQLException sqlerr) {
             System.out.println(sqlerr.getMessage());
             System.out.println("Error code : " + sqlerr.getErrorCode() + " message " + sqlerr.getMessage());
+            //add comment
         }
     }
 }
